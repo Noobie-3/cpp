@@ -5,17 +5,18 @@ using namespace std;
 
 int main() {
 
-
-	
-	cout << "~~~~~~~ THE NAME SWAPPER ~~~~~~~~~"<< endl;
-	cout << "Enter a name"<< endl;
+	char again = 'y';
+	while (again == 'y'){
+	cout << "~~~~~~~ THE NAME SWAPPER ~~~~~~~~~" << endl;
+	cout << "Enter a name(no spaces,  that functionality is coming soon)" << endl;
 	string name1 = "";
 	cin >> name1;
-	cout << "Enter a name";
+	cout << "Enter a name(no spaces,  that functionality is coming soon)" << endl;
 	string name2 = "";
 	cin >> name2;
 
-	cout << name1 << "-" << name2 << endl;
+
+	cout << "\nBefore the swap the names are: " << name1 << "-" << name2 << "\n\n";
 
 
 	string* name1Point = &name1;
@@ -30,8 +31,17 @@ int main() {
 	*name1Point = name2;
 	*name2Point = *oldNamePoint;
 
+	cout << "After the swap the names are: ";
+	cout << name1 << "-" << name2 << endl << endl;
 
-	cout << name1 << "-" << name2 << endl;
+	cout << "would you like to continue(y or n)";
+	cin >> again;
+	if (again == 'n'){
+		cout << "\nCYA!!\n";
+		break;
+	}
+	}
+
 
 
 }
