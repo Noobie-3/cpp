@@ -1,0 +1,8 @@
+﻿  main.cpp
+  Product.cpp
+E:\School\C++\H files\H files\main.cpp(27,14): error C2447: '{': missing function header (old-style formal list?)
+E:\School\C++\H files\H files\Product.cpp(25,17): error C2039: 'get_discount_price': is not a member of 'Product'
+E:\School\C++\H files\H files\Product.h(8): message : see declaration of 'Product'
+E:\School\C++\H files\H files\Product.cpp(26,26): error C2065: 'price': undeclared identifier
+  Generating Code...
+E:\School\C++\H files\H files\Product.cpp(26,34): error C3861: 'get_discount_amount': identifier not found
