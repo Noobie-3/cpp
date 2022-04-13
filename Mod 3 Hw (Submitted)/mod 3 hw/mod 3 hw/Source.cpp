@@ -35,9 +35,10 @@ int main() {
 	printHeader();
 
 
-	for (int i = start; i < stop; i++) {
-		newRow(i);
-	
+
+	while (start < stop + 1) {
+		newRow(start);
+		start++;
 	}
 	
 	
