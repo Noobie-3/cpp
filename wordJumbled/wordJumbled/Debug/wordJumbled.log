@@ -1,0 +1,39 @@
+﻿  Source.cpp
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(12,34): error C2059: syntax error: ';'
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(17,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(17,20): error C2365: 'srand': redefinition; previous definition was 'function'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(346): message : see declaration of 'srand'
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(24,1): error C2059: syntax error: 'for'
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(24,20): error C2143: syntax error: missing ')' before ';'
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(24,29): error C2143: syntax error: missing ';' before '<'
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(24,29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(24,39): error C2059: syntax error: '++'
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(24,47): error C2059: syntax error: ')'
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(24,49): error C2143: syntax error: missing ';' before '{'
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(24,49): error C2447: '{': missing function header (old-style formal list?)
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(32,6): error C2143: syntax error: missing ';' before '<<'
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(32,6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(33,1): error C2059: syntax error: 'for'
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(33,27): error C2059: syntax error: ')'
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(33,29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(33,15): error C2371: 'jumbled_word': redefinition; different basic types
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(22): message : see declaration of 'jumbled_word'
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(34,7): error C2872: 'cout': ambiguous symbol
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(32,1): message : could be 'int cout'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\iostream(30,57): message : or       'std::ostream std::cout'
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(34,36): error C2065: 'c': undeclared identifier
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(34,39): error C2137: empty character constant
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(34,39): error C2059: syntax error: 'constant'
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(35,1): error C2143: syntax error: missing ';' before '}'
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(35,1): error C2059: syntax error: '}'
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(42,1): error C2059: syntax error: 'while'
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(42,14): error C2143: syntax error: missing ';' before '{'
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(42,14): error C2447: '{': missing function header (old-style formal list?)
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(65,1): error C2059: syntax error: 'else'
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(65,27): error C2143: syntax error: missing ';' before '{'
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(65,27): error C2447: '{': missing function header (old-style formal list?)
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(69,1): error C2059: syntax error: 'else'
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(69,6): error C2143: syntax error: missing ';' before '{'
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(69,6): error C2447: '{': missing function header (old-style formal list?)
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(72,1): error C2059: syntax error: '}'
+E:\School\C++\wordJumbled\wordJumbled\Source.cpp(72,1): error C2143: syntax error: missing ';' before '}'
