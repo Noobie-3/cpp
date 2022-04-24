@@ -68,7 +68,7 @@ void Card::comparsion(Card* obj)
 	else if (this->cardNum == 10) {
 		cout << "\n|| D means diamonds|| S means Spades|| C mean Clubs || H means  Hearts ||";
 
-		cout << "\n*** You have drawn an " << 10 << " of " << this->suitConvertor() << " ***" << endl;
+		cout << "\n*** You have drawn an " << 10 << " of " << this->suitConvertor() << " ***" << endl; 
 		cout << "*** The dealer has drawn an " << obj->numConvertor() << " of  " << obj->suitConvertor() << " ***" << endl;
 
 		if (this->cardNum > obj->cardNum) {

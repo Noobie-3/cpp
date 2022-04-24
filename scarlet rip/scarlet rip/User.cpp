@@ -1,14 +1,8 @@
+ #include "User.h"
+#include "other.h"
 
-class User {
-	int PHP;
-	int PPower;
-	void attack();
-	void setPHP();
-};
-void User::attack()
+int User::getUHP()
 {
+	return this->UHP;
 }
 
-void User::setPHP()
-{
-}
