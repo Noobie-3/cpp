@@ -100,13 +100,16 @@ int main() {
 			//use switch case to "summon" differnt enemies NOT YET 
 			cout << "a random encounter has apeared \n";
 			switch (RandomNum) {
-			case 1: battle(player1, other1);
+			case 1:cout << "A weak monster has appeared";
+				battle(player1, other1);
 
-			case 2: battle(player1, other2);
+			case 2: cout << "a slightly hard monster has apeared";
+				battle(player1, other2);
 
-			case 3: battle(player1, other3);
+			case 3:cout << "A  very EVil presance is felt"; battle(player1, other3);
 
-			case 4: battle(player1, other4);
+			case 4:cout << "WHO DARES CHALLANGE A BEAST OF MY CALIBER" << "a intense felling knocks you down and you fell sick to your stomach, the beast prepares to kill you and you are almost certainlygonna die";
+				//battle(player1, other4);
 			}
 
 
