@@ -1,5 +1,5 @@
-#ifndef JED_OTHER_CLASS_H
-#define JED_OTHER_CLASS_H
+#ifndef SCARLET_OTHER_CLASS_H
+#define SCARLET_OTHER_CLASS_H
 
 
 class Other {
