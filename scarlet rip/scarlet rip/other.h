@@ -4,14 +4,14 @@
 
 class Other {
 public:
-	Other(int OPower, int OHP) {
+	Other(int OPower, float OHP) {
 		this->OPower = OPower;
 		this->OHP = OHP;
 	}
 
 
 	int OPower;
-	int OHP;
+	float OHP;
 };
 
 

@@ -3,15 +3,14 @@
 
 class User {
 public:
-	User(int UPower, int UHP, int maxHP) {
+	User(int UPower, float UHP, int maxHP) {
 		this->UPower = UPower;
 		this->UHP = UHP;
 		this->maxHP = maxHP;
 	}
 	int UPower;
-	int UHP;
+	float UHP;
 	int maxHP;
-	int getUHP();
 };
 
 #endif
